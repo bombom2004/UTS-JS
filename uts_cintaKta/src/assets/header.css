@@ -1,0 +1,46 @@
+/* src/components/Header.css */
+.header {
+    background-color: #006eff;
+    color: #fff;
+    display: flex;
+    margin: -8px;
+    padding: 9px;
+    justify-content: space-between;
+  }
+  
+
+  .login{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .register{
+    border: none;
+    cursor: pointer;
+    color: blue;
+    background-color: #fff;
+    outline-color: blue;
+    border-radius: 10px;
+  }
+  .btn-auth{
+    display: flex;
+    gap: 12px;
+  }
+  .title {
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

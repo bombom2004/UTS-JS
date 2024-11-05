@@ -1,0 +1,11 @@
+.slide{
+    display: flex;
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+    width: 400px;
+
+  }
