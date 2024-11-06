@@ -4,13 +4,14 @@ import Slide from "./components/Slide";
 import Card from "./components/Card";
 import Consultation from "./components/Konsultasi"; // Adjust if using "Konsultasi.jsx"
 import Footer from "./components/Footer";
+import './assets/card.css'
 
 const App = () => {
   return (
     <div className="app">
       <Header />
       <Slide />
-      <section className="joined-companies">
+      <section className="container">
         <h2>Perusahaan yang Telah Bergabung</h2>
         <p>Rhoncus morbi et augue nec, in id ullamcorper et sit...</p>
         <div className="cards">

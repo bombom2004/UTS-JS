@@ -1,11 +1,42 @@
 .slide{
+    margin: 30px;
+    margin-top: 50px;
     display: flex;
+    justify-content: space-around;
+  }
+  .h2{
+    font-size: 50px;
+  }
+  .text{
+    margin-top: 15px;
+    width: 500px;
+  }
+  .p{
+    margin-top: 100px;
   }
   .img{
     display: flex;
     justify-content: center;
     align-items: end;
     margin-top: 20px;
-    width: 400px;
+    width: 200px;
 
+  }
+  .btn{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+  }
+  .btn1{
+    padding: 12px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+  }
+  .btn2{
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 119, 255);
+    outline: blue;
+    border: 1px solid blue;
   }
